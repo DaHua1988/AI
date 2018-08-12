@@ -1,0 +1,12 @@
+1. 看图
+tensorboard --logdir="./graphs"
+tensorboard --logdir="./log"
+
+
+2. 启动virtual tensorflow环境
+source ~/tensorflow/bin/activate
+
+
+3. 启动.ipynb文件
+进入文件所在目录，运行：
+    ipython notebook
